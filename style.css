@@ -9,10 +9,15 @@ body {
     box-sizing: border-box;
 	scroll-behavior: smooth;
 	background: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 400;
     color:#888888;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .container {
@@ -291,3 +296,17 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* @media (max-width:1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-left: calc(50% - 376px);
+    }
+
+    .header_left {
+        width: 50%;
+        background-image: url('img/header_bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+} */
