@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 75px;
-    width: 100%;
+    
 }
 
 .top_left {
@@ -216,6 +216,7 @@ body {
 .box2 {
     padding: 0px;
     height: 581px;
+    background: #F8F8F8;;
 }
 
 .a2 {
@@ -254,6 +255,8 @@ body {
     font-weight: 400;
     line-height: normal;
     padding-top: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
     text-align: left;
 }
 
@@ -264,6 +267,8 @@ body {
     font-weight: 300;
     line-height: normal;
     padding-top: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
     text-align: left;
 }
 
@@ -274,7 +279,9 @@ body {
     font-weight: 400;
     line-height: normal;
     padding-top: 16px;
-    text-align: left;
+    padding-left: 18px;
+    padding-right: 18px;
+text-align: left;
 }
 
 .bottom_button {
@@ -290,6 +297,7 @@ body {
     line-height: normal;
     padding: 15px 39px 14px 39px;
     border: 1px solid #F26376;
+    background: #fff;
 }
 
 .item1 {
